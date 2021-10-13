@@ -1,4 +1,4 @@
-connection: "qwiklabsbigquery"
+connection: "qwiklabconnection2"
 
 # include all the views
 include: "/views/**/*.view"
