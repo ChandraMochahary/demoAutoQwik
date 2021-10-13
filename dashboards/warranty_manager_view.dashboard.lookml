@@ -5,7 +5,7 @@
   elements:
   - title: Make
     name: Make
-    model: future-auto-retailing
+    model: future_auto_retailing
     explore: warranty_data
     type: looker_column
     fields: [vehicles, warranty_data.make]

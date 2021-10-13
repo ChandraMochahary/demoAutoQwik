@@ -5,7 +5,7 @@
   elements:
   - title: Auto Sales by Month
     name: Auto Sales by Month
-    model: future-auto-retailing
+    model: future_auto_retailing
     explore: dealer_data
     type: looker_line
     fields: [dealer_data.date, dealer_data.sum_sales]

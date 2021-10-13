@@ -5,7 +5,7 @@
   elements:
   - title: Car Name
     name: Car Name
-    model: future-auto-retailing
+    model: future_auto_retailing
     explore: dealer_data
     type: single_value
     fields: [dealer_data.car_name]
@@ -61,7 +61,7 @@
     height: 4
   - title: Variant
     name: Variant
-    model: future-auto-retailing
+    model: future_auto_retailing
     explore: dealer_data
     type: single_value
     fields: [dealer_data.variant]
