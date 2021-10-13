@@ -5,7 +5,7 @@
   elements:
   - title: Car Name
     name: Car Name
-    model: future-auto-retailing
+    model: future_auto_retailing
     explore: dealer_data
     type: single_value
     fields: [dealer_data.car_name]
@@ -61,7 +61,7 @@
     height: 4
   - title: Variant
     name: Variant
-    model: future-auto-retailing
+    model: future_auto_retailing
     explore: dealer_data
     type: single_value
     fields: [dealer_data.variant]
@@ -117,7 +117,7 @@
     height: 4
   - title: Body Type
     name: Body Type
-    model: future-auto-retailing
+    model: future_auto_retailing
     explore: dealer_data
     type: single_value
     fields: [dealer_data.body_type]
@@ -173,7 +173,7 @@
     height: 4
   - title: City
     name: City
-    model: future-auto-retailing
+    model: future_auto_retailing
     explore: dealer_data
     type: single_value
     fields: [dealer_data.city]
@@ -229,7 +229,7 @@
     height: 4
   - title: State
     name: State
-    model: future-auto-retailing
+    model: future_auto_retailing
     explore: dealer_data
     type: single_value
     fields: [dealer_data.state]
@@ -285,7 +285,7 @@
     height: 4
   - title: Year
     name: Year
-    model: future-auto-retailing
+    model: future_auto_retailing
     explore: dealer_data
     type: single_value
     fields: [dealer_data.year]
@@ -341,7 +341,7 @@
     height: 4
   - title: Average Speed
     name: Average Speed
-    model: future-auto-retailing
+    model: future_auto_retailing
     explore: autotelemetry
     type: marketplace_viz_radial_gauge::radial_gauge-marketplace
     fields: [autotelemetry.avg_speed]
@@ -435,7 +435,7 @@
         measure: true
         parameter: false
         primary_key: false
-        project_name: future-auto-retailing
+        project_name: future_auto_retailing
         scope: autotelemetry
         suggest_dimension: autotelemetry.avg_speed
         suggest_explore: autotelemetry
@@ -447,10 +447,10 @@
         turtle_dimension:
         can_time_filter: false
         time_interval:
-        lookml_link: "/projects/future-auto-retailing/files/views%2Fautotelemetry.view.lkml?line=100"
+        lookml_link: "/projects/future_auto_retailing/files/views%2Fautotelemetry.view.lkml?line=100"
         permanent:
         source_file: views/autotelemetry.view.lkml
-        source_file_path: future-auto-retailing/views/autotelemetry.view.lkml
+        source_file_path: future_auto_retailing/views/autotelemetry.view.lkml
         sql: "${speed} "
         sql_case:
         filters:
@@ -475,7 +475,7 @@
     height: 4
   - title: Average Engine RPM
     name: Average Engine RPM
-    model: future-auto-retailing
+    model: future_auto_retailing
     explore: autotelemetry
     type: single_value
     fields: [autotelemetry.avg_rpm]
@@ -575,7 +575,7 @@
         measure: true
         parameter: false
         primary_key: false
-        project_name: future-auto-retailing
+        project_name: future_auto_retailing
         scope: autotelemetry
         suggest_dimension: autotelemetry.avg_speed
         suggest_explore: autotelemetry
@@ -587,10 +587,10 @@
         turtle_dimension:
         can_time_filter: false
         time_interval:
-        lookml_link: "/projects/future-auto-retailing/files/views%2Fautotelemetry.view.lkml?line=100"
+        lookml_link: "/projects/future_auto_retailing/files/views%2Fautotelemetry.view.lkml?line=100"
         permanent:
         source_file: views/autotelemetry.view.lkml
-        source_file_path: future-auto-retailing/views/autotelemetry.view.lkml
+        source_file_path: future_auto_retailing/views/autotelemetry.view.lkml
         sql: "${speed} "
         sql_case:
         filters:
@@ -615,7 +615,7 @@
     height: 4
   - title: Average Miles per Gallon
     name: Average Miles per Gallon
-    model: future-auto-retailing
+    model: future_auto_retailing
     explore: autotelemetry
     type: single_value
     fields: [autotelemetry.avg_kpl]
@@ -715,7 +715,7 @@
         measure: true
         parameter: false
         primary_key: false
-        project_name: future-auto-retailing
+        project_name: future_auto_retailing
         scope: autotelemetry
         suggest_dimension: autotelemetry.avg_speed
         suggest_explore: autotelemetry
@@ -727,10 +727,10 @@
         turtle_dimension:
         can_time_filter: false
         time_interval:
-        lookml_link: "/projects/future-auto-retailing/files/views%2Fautotelemetry.view.lkml?line=100"
+        lookml_link: "/projects/future_auto_retailing/files/views%2Fautotelemetry.view.lkml?line=100"
         permanent:
         source_file: views/autotelemetry.view.lkml
-        source_file_path: future-auto-retailing/views/autotelemetry.view.lkml
+        source_file_path: future_auto_retailing/views/autotelemetry.view.lkml
         sql: "${speed} "
         sql_case:
         filters:
