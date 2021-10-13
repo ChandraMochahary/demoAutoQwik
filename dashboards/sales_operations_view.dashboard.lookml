@@ -5,7 +5,7 @@
   elements:
   - title: Auto Sales by Month
     name: Auto Sales by Month
-    model: future-auto-retailing
+    model: future_auto_retailing
     explore: dealer_data
     type: looker_line
     fields: [dealer_data.date, dealer_data.sum_sales]
@@ -74,7 +74,7 @@
     height: 4
   - title: Auto Sales by Make
     name: Auto Sales by Make
-    model: future-auto-retailing
+    model: future_auto_retailing
     explore: dealer_data
     type: looker_pie
     fields: [dealer_data.make, dealer_data.sum_sales]
@@ -127,7 +127,7 @@
     height: 6
   - title: Auto Sales by Region
     name: Auto Sales by Region
-    model: future-auto-retailing
+    model: future_auto_retailing
     explore: dealer_data
     type: looker_map
     fields: [dealer_data.sum_sales, dealer_data.state]
@@ -189,7 +189,7 @@
     height: 6
   - title: Auto Recall by Model
     name: Auto Recall by Model
-    model: future-auto-retailing
+    model: future_auto_retailing
     explore: autotelemetryaggr
     type: tree_vis
     fields: [dealer_data.count_distinct_vin, dealer_data.model]
@@ -260,7 +260,7 @@
     height: 7
   - title: Auto Recall by Make
     name: Auto Recall by Make
-    model: future-auto-retailing
+    model: future_auto_retailing
     explore: autotelemetryaggr
     type: looker_column
     fields: [dealer_data.count_distinct_vin, dealer_data.make]

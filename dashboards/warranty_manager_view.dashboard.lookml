@@ -5,7 +5,7 @@
   elements:
   - title: Make
     name: Make
-    model: future-auto-retailing
+    model: future_auto_retailing
     explore: warranty_data
     type: looker_column
     fields: [vehicles, warranty_data.make]
@@ -60,7 +60,7 @@
     height: 6
   - title: Model
     name: Model
-    model: future-auto-retailing
+    model: future_auto_retailing
     explore: warranty_data
     type: marketplace_viz_sankey::sankey-marketplace
     fields: [warranty_data.model, warranty_data.make, vehicle]
@@ -155,7 +155,7 @@
         measure: true
         parameter: false
         primary_key: false
-        project_name: future-auto-retailing
+        project_name: future_auto_retailing
         scope: warranty_data
         suggest_dimension: vehicle
         suggest_explore: warranty_data
@@ -170,7 +170,7 @@
         lookml_link:
         permanent:
         source_file: views/warrantymodel.view.lkml
-        source_file_path: future-auto-retailing/views/warrantymodel.view.lkml
+        source_file_path: future_auto_retailing/views/warrantymodel.view.lkml
         sql: vehicle
         sql_case:
         filters:
@@ -216,7 +216,7 @@
         measure: false
         parameter: false
         primary_key: false
-        project_name: future-auto-retailing
+        project_name: future_auto_retailing
         scope: warranty_data
         suggest_dimension: warranty_data.model
         suggest_explore: warranty_data
@@ -228,10 +228,10 @@
         turtle_dimension:
         can_time_filter: false
         time_interval:
-        lookml_link: "/projects/future-auto-retailing/files/views%2Fwarrantymodel.view.lkml?line=26"
+        lookml_link: "/projects/future_auto_retailing/files/views%2Fwarrantymodel.view.lkml?line=26"
         permanent:
         source_file: views/warrantymodel.view.lkml
-        source_file_path: future-auto-retailing/views/warrantymodel.view.lkml
+        source_file_path: future_auto_retailing/views/warrantymodel.view.lkml
         sql: 'UPPER(${TABLE}.model) '
         sql_case:
         filters:
@@ -273,7 +273,7 @@
         measure: false
         parameter: false
         primary_key: false
-        project_name: future-auto-retailing
+        project_name: future_auto_retailing
         scope: warranty_data
         suggest_dimension: warranty_data.make
         suggest_explore: warranty_data
@@ -285,10 +285,10 @@
         turtle_dimension:
         can_time_filter: false
         time_interval:
-        lookml_link: "/projects/future-auto-retailing/files/views%2Fwarrantymodel.view.lkml?line=21"
+        lookml_link: "/projects/future_auto_retailing/files/views%2Fwarrantymodel.view.lkml?line=21"
         permanent:
         source_file: views/warrantymodel.view.lkml
-        source_file_path: future-auto-retailing/views/warrantymodel.view.lkml
+        source_file_path: future_auto_retailing/views/warrantymodel.view.lkml
         sql: 'UPPER(${TABLE}.make) '
         sql_case:
         filters:
@@ -308,7 +308,7 @@
     height: 7
   - title: City
     name: City
-    model: future-auto-retailing
+    model: future_auto_retailing
     explore: warranty_data
     type: looker_bar
     fields: [warranty_data.city, vehicles]
@@ -388,7 +388,7 @@
     height: 7
   - title: Predicted Total Repair Cost
     name: Predicted Total Repair Cost
-    model: future-auto-retailing
+    model: future_auto_retailing
     explore: warranty_cost
     type: single_value
     fields: [warranty_cost.repair_cost]
@@ -426,7 +426,7 @@
     height: 2
   - title: Predicted Repair Effort
     name: Predicted Repair Effort
-    model: future-auto-retailing
+    model: future_auto_retailing
     explore: warranty_cost
     type: single_value
     fields: [warranty_cost.manpower]
@@ -455,7 +455,7 @@
     height: 2
   - title: Region
     name: Region
-    model: future-auto-retailing
+    model: future_auto_retailing
     explore: warranty_data
     type: looker_map
     fields: [vehicles, warranty_data.state]
