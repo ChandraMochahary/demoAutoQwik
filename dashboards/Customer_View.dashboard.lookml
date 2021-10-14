@@ -343,7 +343,7 @@
     name: Average Speed
     model: future_auto_retailing
     explore: autotelemetry
-    type: marketplace_viz_radial_gauge::radial_gauge-marketplace
+    type: single_value
     fields: [autotelemetry.avg_speed]
     limit: 500
     query_timezone: UTC
