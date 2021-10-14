@@ -287,7 +287,7 @@
     name: Year
     model: future_auto_retailing
     explore: dealer_data
-    type: marketplace_viz_radial_gauge::radial_gauge-marketplace
+    type: single_value
     fields: [dealer_data.year]
     sorts: [dealer_data.year]
     limit: 500
@@ -343,7 +343,7 @@
     name: Average Speed
     model: future_auto_retailing
     explore: autotelemetry
-    type: single_value
+    type: marketplace_viz_radial_gauge::radial_gauge-marketplace
     fields: [autotelemetry.avg_speed]
     limit: 500
     query_timezone: UTC
