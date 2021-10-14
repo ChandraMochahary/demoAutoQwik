@@ -287,7 +287,7 @@
     name: Year
     model: future_auto_retailing
     explore: dealer_data
-    type: single_value
+    type: marketplace_viz_radial_gauge::radial_gauge-marketplace
     fields: [dealer_data.year]
     sorts: [dealer_data.year]
     limit: 500
