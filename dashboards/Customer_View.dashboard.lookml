@@ -351,6 +351,7 @@
     hidden_points_if_no: []
     series_labels: {}
     show_view_names: true
+    value_format: "##.##"
     circleThickness: 0.5
     circleFillGap: 0.5
     arm_length: 9
