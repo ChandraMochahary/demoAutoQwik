@@ -17,10 +17,3 @@ visualization: {
   label: "tree_vis"
   file: "visualizations/tree_vis.js"
 }
-
-
-visualization: {
-  id: "treemap"
-  label: "treemap"
-  file: "visualizations/treemap.js"
-}
