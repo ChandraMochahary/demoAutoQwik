@@ -17,3 +17,9 @@ visualization: {
   label: "tree_vis"
   file: "visualizations/tree_vis.js"
 }
+
+visualization: {
+  id: "sankey-marketplace"
+  label: "sankey-marketplace"
+  file: "visualizations/sankey-marketplace.js"
+}

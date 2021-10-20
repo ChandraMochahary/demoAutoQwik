@@ -62,7 +62,7 @@
     name: Model
     model: future_auto_retailing
     explore: warranty_data
-    type: marketplace_viz_sankey::sankey-marketplace
+    type: future_auto_retailing::sankey-marketplace
     fields: [warranty_data.model, warranty_data.make, vehicle]
     sorts: [vehicle desc]
     limit: 500
