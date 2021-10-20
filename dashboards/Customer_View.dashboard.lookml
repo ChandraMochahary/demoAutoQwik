@@ -351,7 +351,6 @@
     hidden_points_if_no: []
     series_labels: {}
     show_view_names: true
-    value_format: "##.##"
     circleThickness: 0.5
     circleFillGap: 0.5
     arm_length: 9
@@ -364,7 +363,7 @@
     range_min: 0
     value_label_type: both
     value_label_font: 12
-    value_formatting: ''
+    value_formatting: '##.##'
     value_label_padding: 45
     target_source: 'off'
     target_label_type: both

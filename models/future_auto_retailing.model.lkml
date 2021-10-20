@@ -1,4 +1,4 @@
-connection: "qwiklabsbigquery"
+connection: "autoc360"
 
 # include all the views
 include: "/views/**/*.view"
