@@ -11,12 +11,14 @@
     fields: [vehicles, warranty_data.make]
     sorts: [vehicles desc]
     limit: 500
+
     dynamic_fields: [{based_on: warranty_data.vin, _kind_hint: measure, measure: vehicles,
-        type: count_distinct, _type_hint: number, filters: {}, category: measure,
-        expression: !!null '', label: 'Vehicles ', value_format: !!null '', value_format_name: !!null ''}]
+      type: count_distinct, _type_hint: number, category: measure, expression: !!null '',
+      label: Vehicle, value_format: !!null '', value_format_name: !!null ''}]
     filter_expression: ${warranty_data.error_code} = 2 AND ( ${warranty_data.make}
       = "CHEVROLET" OR ${warranty_data.make} = "GMC" OR ${warranty_data.make} = "BUICK"
       )
+
     query_timezone: UTC
     x_axis_gridlines: false
     y_axis_gridlines: true
