@@ -191,7 +191,7 @@
     name: Auto Recall by Model
     model: future_auto_retailing
     explore: autotelemetryaggr
-    type: future_auto_retailing::tree_vis
+    type: future_auto_retailing::treemap
     fields: [dealer_data.count_distinct_vin, dealer_data.model]
     sorts: [dealer_data.count_distinct_vin desc]
     limit: 500
