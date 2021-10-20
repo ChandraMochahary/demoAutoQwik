@@ -11,3 +11,9 @@ visualization: {
   label: "Radial Gauge"
   file: "visualizations/radialgauge_v2.js"
 }
+
+visualization: {
+  id: "tree_vis"
+  label: "tree_vis"
+  file: "visualizations/tree_vis.js"
+}
