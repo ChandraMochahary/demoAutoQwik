@@ -1,5 +1,5 @@
 view: warranty_cost {
-  sql_table_name: `qwiklabs-gcp-00-272fac759342.autorepair.warrantyview` ;;
+  sql_table_name: `data-demo-2021.autorepair.warrantyview` ;;
 
   dimension: vehicle_type {
     primary_key: yes

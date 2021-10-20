@@ -1,5 +1,5 @@
 view: error_codes {
-  sql_table_name: `qwiklabs-gcp-00-272fac759342.autorepair.errorcodes` ;;
+  sql_table_name: `data-demo-2021.autorepair.errorcodes` ;;
 
   dimension: error_code {
     primary_key: yes

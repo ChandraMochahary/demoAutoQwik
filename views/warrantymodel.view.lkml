@@ -1,5 +1,5 @@
 view: warranty_data {
-  sql_table_name: `qwiklabs-gcp-00-272fac759342.autorepair.warrantyview` ;;
+  sql_table_name: `data-demo-2021.autorepair.warrantyview` ;;
 
   dimension: vin {
     primary_key: yes

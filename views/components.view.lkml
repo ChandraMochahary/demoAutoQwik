@@ -1,5 +1,5 @@
 view: components {
-  sql_table_name: `qwiklabs-gcp-00-272fac759342.autorepair.components` ;;
+  sql_table_name: `data-demo-2021.autorepair.components` ;;
 
   dimension: component_type_id {
     primary_key: yes

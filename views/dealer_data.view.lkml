@@ -1,5 +1,5 @@
 view: dealer_data {
-  sql_table_name: `qwiklabs-gcp-00-272fac759342.autorepair.dealerdata` ;;
+  sql_table_name: `data-demo-2021.autorepair.dealerdata` ;;
 
   dimension: vin {
     primary_key: yes

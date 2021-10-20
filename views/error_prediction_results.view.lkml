@@ -1,5 +1,5 @@
 view: error_prediction_results {
-  sql_table_name: `qwiklabs-gcp-00-272fac759342.autorepair.predict_results`;;
+  sql_table_name: `data-demo-2021.autorepair.predict_results`;;
 
   dimension: vin {
     type: string

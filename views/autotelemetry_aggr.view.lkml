@@ -1,5 +1,5 @@
 view: autotelemetryaggr {
-  sql_table_name: `qwiklabs-gcp-00-272fac759342.autorepair.autotelemetry_aggr`
+  sql_table_name: `data-demo-2021.autorepair.autotelemetry_aggr`
     ;;
 
   dimension: trip_id{
