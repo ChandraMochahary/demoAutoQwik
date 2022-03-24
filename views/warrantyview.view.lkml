@@ -3,7 +3,7 @@ view: warrantyview {
     ;;
 
   dimension: city {
-    type: string
+    type: location
     sql: ${TABLE}.City ;;
   }
 
